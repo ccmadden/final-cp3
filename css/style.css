@@ -199,8 +199,9 @@ body {
       color: #f4f4f4;
     }
   
-    nav {
+    nav a {
       background-color: #333;
+      color: white;
     }
     nav ul{
       background-color: #333;
