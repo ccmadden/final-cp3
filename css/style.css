@@ -105,14 +105,14 @@ body {
   
   }
 
-  /* Athlete Section */
+  /* Athlete Section*/
 .athlete {
   margin: 1em 0;
   display: inline-block;
   align-items: center;
 
 }
-
+/*Stylng of the images to be circular, have a box-shadow, and take up the width of the screen*/
 .athlete img {
   border-radius: 100px;
   object-fit: cover;
@@ -151,7 +151,7 @@ body {
     border: 1px solid #ddd;
     text-align: center;
   }
-  
+  /*Changing the bakchround color of every other section for greater distingushability */
   tr:nth-child(even) {
     background-color: #f9f9f9;
   }
@@ -180,13 +180,13 @@ body {
 
   
   /* Media/ Mobile View/ Accessibility */
-
+/*Prefered reduced motion*/
   @media (prefers-reduced-motion: reduce) {
     * {
       animation: none;
     }
   } 
-  
+  /*Prefered Dark Mode, changed various aspects to make page look better and accessible*/
   @media (prefers-color-scheme: dark) {
     body {
       background-color: #1e1e1e;
