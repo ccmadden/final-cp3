@@ -211,6 +211,10 @@ body {
     table {
       border-color: #444;
     }
+
+    .athlete dt, .athlete figure{
+      color: lightgray;
+    }
   
     tr:nth-child(even) {
       background-color: #2e2e2e;
